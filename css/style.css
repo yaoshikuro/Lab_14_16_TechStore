@@ -16,3 +16,53 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
+
+header {
+    background-color: #1a1a2e;
+    color: white;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #e94560;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #e94560;
+}
+
+.header-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.header-icons a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}git add css/style.css
